@@ -3,7 +3,9 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - KillTilemap
+  - ForegroundTilemap
   layers:
   - Default
   - TransparentFX
@@ -13,10 +15,10 @@ TagManager:
   - UI
   - 
   - 
-  - 
-  - 
-  - 
-  - 
+  - Ground
+  - Player
+  - Background
+  - Kill Tile
   - 
   - 
   - 
@@ -40,4 +42,19 @@ TagManager:
   m_SortingLayers:
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: Background
+    uniqueID: 115883999
+    locked: 0
+  - name: Midground
+    uniqueID: 3970236639
+    locked: 0
+  - name: Kill Tile
+    uniqueID: 685544565
+    locked: 0
+  - name: Player
+    uniqueID: 1888654573
+    locked: 0
+  - name: Foreground
+    uniqueID: 3627217229
     locked: 0
