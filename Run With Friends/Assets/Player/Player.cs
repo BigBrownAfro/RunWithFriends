@@ -179,7 +179,7 @@ public class Player : MonoBehaviour
             {
                 //Look for an object to the left
                 bodyCollider.Cast(Vector2.left, nearestObject, .3f);
-                if (!nearestObject[0] || nearestObject[0].rigidbody.bodyType.Equals(RigidbodyType2D.Static)) //if their is no grabbable object to left, try right
+                if (!nearestObject[0] || nearestObject[0].rigidbody.bodyType.Equals(RigidbodyType2D.Static) || nearestObject[0].rigidbody.bodyType.Equals(RigidbodyType2D.Kinematic)) //if their is no grabbable object to left, try right
                 {
                     nearestObject = new RaycastHit2D[1];
                     bodyCollider.Cast(Vector2.right, nearestObject, .3f);
@@ -196,7 +196,7 @@ public class Player : MonoBehaviour
                 }
             }
 
-            if (nearestObject[0] && !nearestObject[0].rigidbody.bodyType.Equals(RigidbodyType2D.Static)) //If there was a grabbable object close to the player in the direction they're facing
+            if (nearestObject[0] && !nearestObject[0].rigidbody.bodyType.Equals(RigidbodyType2D.Static) || nearestObject[0].rigidbody.bodyType.Equals(RigidbodyType2D.Kinematic)) //If there was a grabbable object close to the player in the direction they're facing
             {
                 //grab the nearest object
                 grabbedObject = nearestObject[0].collider.gameObject;
@@ -274,7 +274,7 @@ public class Player : MonoBehaviour
     {
         isAlive = false;
         StartCoroutine(PlayDeathAnimationAndDeactivate());
-        Debug.Log("We made it out");
+        Debug.Log("Player " + playerId + " is real dead.");
     }
 
     private IEnumerator PlayDeathAnimationAndDeactivate()

@@ -7,10 +7,12 @@ public class GameController : MonoBehaviour
 {
     [SerializeField] [Range(1,4)] int playerCount;
     [SerializeField] GameObject playerGameObject;
+    [SerializeField] GameObject deathWallGameObject;
     KillTile killTilemap;
     Rigidbody2D foregroundBody;
+    DeathWall deathWall;
 
-    Player[] players;
+    public Player[] players;
 
     // Start is called before the first frame update
     void Start()
@@ -18,13 +20,14 @@ public class GameController : MonoBehaviour
         Init();
         VerifyComponents();
         CreatePlayers();
-        FillDependencies();
+        Activate();
     }
 
     private void Init()
     {
         killTilemap = GameObject.FindGameObjectWithTag("KillTilemap").GetComponent<KillTile>();
         foregroundBody = GameObject.FindGameObjectWithTag("ForegroundTilemap").GetComponent<Rigidbody2D>();
+        deathWall = Instantiate(deathWallGameObject).GetComponent<DeathWall>();
     }
 
     // Update is called once per frame
@@ -35,7 +38,7 @@ public class GameController : MonoBehaviour
 
     private void VerifyComponents()
     {
-        if(!playerGameObject || !killTilemap || !foregroundBody)
+        if(!playerGameObject || !killTilemap || !foregroundBody || !deathWallGameObject)
         {
             Debug.Log("Missing one or more SerializedFields in GameController");
             Destroy(this);
@@ -52,8 +55,9 @@ public class GameController : MonoBehaviour
         }
     }
 
-    private void FillDependencies()
+    private void Activate()
     {
-        killTilemap.setPlayers(players);
+        killTilemap.Activate();
+        deathWall.Activate();
     }
 }

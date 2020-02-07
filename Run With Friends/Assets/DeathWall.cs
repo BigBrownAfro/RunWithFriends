@@ -2,11 +2,12 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class KillTile : MonoBehaviour
+public class DeathWall : MonoBehaviour
 {
     GameController gameController;
     Rigidbody2D rigidbody;
     Player[] players;
+
 
     bool isActive = false;
 
@@ -23,6 +24,7 @@ public class KillTile : MonoBehaviour
         {
             return;
         }
+        Move();
         CheckPlayerCollision();
     }
 
@@ -31,6 +33,11 @@ public class KillTile : MonoBehaviour
         gameController = GameObject.FindGameObjectWithTag("GameController").GetComponent<GameController>();
         this.players = gameController.players;
         isActive = true;
+    }
+
+    public void Move()
+    {
+        rigidbody.position = new Vector2(rigidbody.position.x + .02f, rigidbody.position.y);
     }
 
     private void CheckPlayerCollision()

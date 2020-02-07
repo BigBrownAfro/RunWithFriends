@@ -58,3 +58,6 @@ TagManager:
   - name: Foreground
     uniqueID: 3627217229
     locked: 0
+  - name: DeathWall
+    uniqueID: 35086369
+    locked: 0
