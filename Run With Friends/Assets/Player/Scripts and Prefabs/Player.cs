@@ -16,17 +16,16 @@ public class Player : MonoBehaviour
     int maxInvincibilityCooldown = 120;
 
     //Physics
-    float maxMoveSpeed = 5f;
-    float maxSprintSpeed = 8f;
-    int maxJumpCooldown = 10;
+    [SerializeField] float maxMoveSpeed = 5f;
+    [SerializeField] float maxSprintSpeed = 8f;
+    int maxJumpCooldown = 10; 
 
-    float moveSpeed = 8f;
-    float sprintMultiplier = 1.3f;
-    float jumpHeight = 10f;
+    [SerializeField] float moveSpeed = 8f;
+    [SerializeField] float jumpHeight = 12f;
     int jumpCooldown = 0;
-    float throwSpeed = 1f;
-    float throwHeight = 3f;
-    float frictionStrength = 1f;
+    [SerializeField] float throwSpeed = 1f;
+    [SerializeField] float throwHeight = 3f;
+    [SerializeField] float frictionStrength = 1f;
 
     //Grabbing
     bool isGrabbing = false;
@@ -40,6 +39,8 @@ public class Player : MonoBehaviour
     public Rigidbody2D rigidbody;
     public BoxCollider2D feetCollider;
     public CapsuleCollider2D bodyCollider;
+    //public CapsuleCollider2D leftHandCollider;
+    //public CapsuleCollider2D rightHandCollider;
     Animator animator;
 
     // Start is called before the first frame update
@@ -51,15 +52,27 @@ public class Player : MonoBehaviour
         //Determine which player this is
         playerId = playerCount;
 
+        //If there are more than 4 players, freeze the extras
+        if (playerId > 4)
+        {
+            isAlive = false;
+        }
+
         rigidbody = GetComponent<Rigidbody2D>();
         feetCollider = GetComponent<BoxCollider2D>();
+
+        //Assign body and hands
+        CapsuleCollider2D[] capsules = GetComponents<CapsuleCollider2D>();
+        bodyCollider = capsules[0];
+        //leftHandCollider = capsules[1];
+        //rightHandCollider = capsules[2];
         bodyCollider = GetComponent<CapsuleCollider2D>();
         animator = GetComponent<Animator>();
         
     }
 
     // Update is called once per frame
-    void Update()
+    void FixedUpdate()
     {
         if (!isAlive)
         {
@@ -69,12 +82,13 @@ public class Player : MonoBehaviour
         Jump();
         Grab();
         IncrementCooldowns();
-        CheckTriggers();
+        CheckDeath();
+        UpdateAnimator();
     }
 
     private void Move()
     {
-        float horizontalControlThrow = Input.GetAxis("Horizontal"); // -1 to 1, the magnitude of the controller in the horizontal direction
+        float horizontalControlThrow = Input.GetAxis("Horizontal_"+playerId); // -1 to 1, the magnitude of the controller in the horizontal direction
         //set the last direction faced based on input
         if(horizontalControlThrow < -0.05)
         {
@@ -86,7 +100,7 @@ public class Player : MonoBehaviour
         }
 
         bool isSprinting = false;
-        if (Input.GetButton("Sprint") || Mathf.Abs(Input.GetAxis("Sprint")) > .2)
+        if (Input.GetButton("L2_" + playerId) || Mathf.Abs(Input.GetAxis("L2_" + playerId)) > .2)
         {
             isSprinting = true;
         }
@@ -103,19 +117,22 @@ public class Player : MonoBehaviour
             maxSpeed = maxMoveSpeed;
         }
 
+        bool moved = false;//boolean to keep track of whether the player moved or not during this update
+
         //Move the player based on the strength of the control throw and move speed
         //Restrict the player's ability to accelerate passed their max speeds however if an outside force were to force them above it, allow this but slow them down till max.
         if(rigidbody.velocity.x <= maxSpeed && rigidbody.velocity.x >= -maxSpeed) //if the player is moving below there max speed
         {
+            
             if(rigidbody.velocity.x + horizontalControlThrow * moveSpeed * .03f < maxSpeed && rigidbody.velocity.x + horizontalControlThrow * moveSpeed * .03f > -maxSpeed) //if the player remains below max speed after adding on the new speed
             {
                 //Add the speed to the player's velocity
                 rigidbody.velocity += new Vector2(horizontalControlThrow * moveSpeed * .03f, 0);
             }
-            else //if adding the new speed to their velocity would result in velocity over the allow max speed
+            else //if adding the new speed to their velocity would result in velocity over the allowed max speed
             {
                 //set the player to their max velocity
-                if(rigidbody.velocity.x < 0)
+                if (rigidbody.velocity.x < 0)
                 {
                     rigidbody.velocity = new Vector2(-maxSpeed, rigidbody.velocity.y);
                 }
@@ -124,38 +141,66 @@ public class Player : MonoBehaviour
                     rigidbody.velocity = new Vector2(maxSpeed, rigidbody.velocity.y);
                 }
             }
-            
+
+            if(Mathf.Abs(horizontalControlThrow) > .01)
+            {
+                moved = true;
+            }
         }
-        else if ((rigidbody.velocity.x < -maxSpeed && horizontalControlThrow > 0) || (rigidbody.velocity.x > maxSpeed && horizontalControlThrow < 0)) //If the player is moving over max and they wish to move in the opposite direction
+        else if ((rigidbody.velocity.x < -maxSpeed && horizontalControlThrow > 0.01) || (rigidbody.velocity.x > maxSpeed && horizontalControlThrow < -0.01)) //If the player is moving over max and they wish to move in the opposite direction
         {
             //Add the speed to the player's velocity
             rigidbody.velocity += new Vector2(horizontalControlThrow * moveSpeed * .03f, 0);
+
+            if (Mathf.Abs(horizontalControlThrow) > .01)
+            {
+                moved = true;
+            }
         }
 
-        //apply ground friction if not running and feet touching ground or other player
-        if (Mathf.Abs(horizontalControlThrow) < .01f && (feetCollider.IsTouchingLayers(LayerMask.GetMask("Ground")) || feetCollider.IsTouchingLayers(LayerMask.GetMask("Player"))))
+        //apply ground friction if the player hasn't moved this frame and feet touching ground or other player
+        if (!moved && (feetCollider.IsTouchingLayers(LayerMask.GetMask("Ground")) || feetCollider.IsTouchingLayers(LayerMask.GetMask("Player"))))
         {
             rigidbody.velocity = new Vector2(rigidbody.velocity.x * (.90f / frictionStrength), rigidbody.velocity.y);
         }
 
+        //apply max negative vertical velocity if player is rubbing up against a wall
+        if (CanWallJump().Equals("Left") && horizontalControlThrow < -.05 &&rigidbody.velocity.y < -2f)
+        {
+            rigidbody.velocity = new Vector2(rigidbody.velocity.x, -2f);
+        }
+        else if (CanWallJump().Equals("Right") && horizontalControlThrow > .05 && rigidbody.velocity.y < -2f)
+        {
+            rigidbody.velocity = new Vector2(rigidbody.velocity.x, -2f);
+        }
+
         //Restrict max negative vertical velocity
-        if(rigidbody.velocity.y < -15f)
+        if (rigidbody.velocity.y < -15f)
         {
             rigidbody.velocity = new Vector2(rigidbody.velocity.x, -15f);
         }
-
-        //Update the animator
-        animator.SetFloat("xVelocity", rigidbody.velocity.x);
     }
 
     private void Jump()
     {
         //if the jump button is pressed, the cooldown has ended, and the player is on the ground...
-        //jump
-        if (Input.GetButton("Jump") && jumpCooldown <= 0 && (feetCollider.IsTouchingLayers(LayerMask.GetMask("Ground")) || feetCollider.IsTouchingLayers(LayerMask.GetMask("Player"))))
+        if (Input.GetButton("A_" + playerId) && jumpCooldown <= 0 && (feetCollider.IsTouchingLayers(LayerMask.GetMask("Ground")) || feetCollider.IsTouchingLayers(LayerMask.GetMask("Player"))))
         {
+            //propel the player upwards while keeping horizontal velocity
             rigidbody.velocity = new Vector2(rigidbody.velocity.x, jumpHeight);
-            //Set the jump cooldown to max so the player can't jump immediately after(double jump while on groung)
+            //Set the jump cooldown to max so the player can't jump immediately after (double jump while on groung)
+            jumpCooldown = maxJumpCooldown;
+        }
+        else if (Input.GetButton("A_" + playerId) && jumpCooldown <= 0 && CanWallJump().Equals("Left")) //Trying to jump while touching left wall
+        {
+            //propel the player upwards and away from the wall
+            rigidbody.velocity = new Vector2(5f, jumpHeight);
+            jumpCooldown = maxJumpCooldown;
+        }
+        else if(Input.GetButton("A_" + playerId) && jumpCooldown <= 0 && CanWallJump().Equals("Right")) //Trying to jump while touching right wall
+        {
+            //propel the player upwards and away from the wall
+            rigidbody.velocity = new Vector2(-5f, jumpHeight);
             jumpCooldown = maxJumpCooldown;
         }
 
@@ -171,7 +216,7 @@ public class Player : MonoBehaviour
 
     private void Grab()
     {
-        if(Input.GetButtonDown("Grab") && !isGrabbing)
+        if(Input.GetButtonDown("X_" + playerId) && !isGrabbing)
         {
             //Detect the objects close to the left and right of player
             RaycastHit2D[] nearestObject = new RaycastHit2D[1];
@@ -196,7 +241,7 @@ public class Player : MonoBehaviour
                 }
             }
 
-            if (nearestObject[0] && !nearestObject[0].rigidbody.bodyType.Equals(RigidbodyType2D.Static) || nearestObject[0].rigidbody.bodyType.Equals(RigidbodyType2D.Kinematic)) //If there was a grabbable object close to the player in the direction they're facing
+            if (nearestObject[0] && (!nearestObject[0].rigidbody.bodyType.Equals(RigidbodyType2D.Static) || nearestObject[0].rigidbody.bodyType.Equals(RigidbodyType2D.Kinematic))) //If there was a grabbable object close to the player in the direction they're facing
             {
                 //grab the nearest object
                 grabbedObject = nearestObject[0].collider.gameObject;
@@ -212,7 +257,7 @@ public class Player : MonoBehaviour
                 isGrabbing = true;
             }
         }
-        else if (Input.GetButtonDown("Grab") && isGrabbing) //Throw
+        else if (Input.GetButtonDown("X_" + playerId) && isGrabbing) //Throw
         {
             isGrabbing = false;
 
@@ -246,7 +291,6 @@ public class Player : MonoBehaviour
     {
         if (invincibilityCooldown <= 0)
         {
-            Debug.Log("You've been hit");
             health -= amount;
             invincibilityCooldown = maxInvincibilityCooldown;
         }
@@ -261,13 +305,19 @@ public class Player : MonoBehaviour
         }
     }
 
-    private void CheckTriggers()
+    private void CheckDeath()
     {
         if (health <= 0)
         {
             Kill();
             //StartCoroutine(Kill());
         }
+    }
+
+    private void UpdateAnimator()
+    {
+        animator.SetFloat("xVelocity", rigidbody.velocity.x);
+        animator.SetBool("facingLeft", lastDirection == Direction.left);
     }
 
     public void Kill()
@@ -290,5 +340,35 @@ public class Player : MonoBehaviour
             yield return new WaitForSeconds(.02f);
         }
         GetComponent<SpriteRenderer>().enabled = false;
+    }
+
+    /**
+     * Casts raycasts to the left and right of the player to detect whether or not the player can wall jump or not
+     * Returns a string Left, Right, or False (Describing which direction the wall is or whether or not it can jump)
+     */
+    private String CanWallJump()
+    {
+        //Create arrays of size one to store our raycasts into
+        RaycastHit2D[] castLeft = new RaycastHit2D[1];
+        RaycastHit2D[] castRight = new RaycastHit2D[1];
+
+        //Cast left
+        bodyCollider.Cast(Vector2.left, castLeft, .1f);
+        //Cast right
+        bodyCollider.Cast(Vector2.right, castRight, .1f);
+
+        //If their is an object to the left and it is the ground (wall)
+        if (castLeft[0] && castLeft[0].collider.attachedRigidbody.bodyType.Equals(RigidbodyType2D.Static))
+        {
+            return "Left";
+        }
+
+        //If their is an object to the right and it is the ground (wall)
+        if (castRight[0] && castRight[0].collider.attachedRigidbody.bodyType.Equals(RigidbodyType2D.Static))
+        {
+            return "Right";
+        }
+
+        return "False";
     }
 }

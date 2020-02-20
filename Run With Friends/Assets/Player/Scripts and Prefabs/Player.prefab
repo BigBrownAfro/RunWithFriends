@@ -31,7 +31,7 @@ Transform:
   m_GameObject: {fileID: 7254277993509974256}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1.5, y: 1.5, z: 1.5}
+  m_LocalScale: {x: 1.5, y: 1.5, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
@@ -101,7 +101,7 @@ Rigidbody2D:
   m_Mass: 1
   m_LinearDrag: 0
   m_AngularDrag: 0.05
-  m_GravityScale: 2
+  m_GravityScale: 3
   m_Material: {fileID: 0}
   m_Interpolate: 0
   m_SleepingMode: 1
@@ -177,10 +177,17 @@ MonoBehaviour:
   m_GameObject: {fileID: 7254277993509974256}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: edd8b46d50430a0429c3d7aacae49520, type: 3}
+  m_Script: {fileID: 11500000, guid: 712b68ee0d1e9d449871d46452ba4510, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerId: 5
+  playerId: 0
+  maxMoveSpeed: 5
+  maxSprintSpeed: 8
+  moveSpeed: 8
+  jumpHeight: 12
+  throwSpeed: 1
+  throwHeight: 3
+  frictionStrength: 1
   rigidbody: {fileID: 0}
   feetCollider: {fileID: 0}
   bodyCollider: {fileID: 0}

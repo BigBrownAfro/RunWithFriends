@@ -6,6 +6,7 @@ TagManager:
   tags:
   - KillTilemap
   - ForegroundTilemap
+  - SpawnZone
   layers:
   - Default
   - TransparentFX

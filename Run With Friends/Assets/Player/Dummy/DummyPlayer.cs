@@ -38,8 +38,6 @@ public class DummyPlayer : MonoBehaviour
     void Update()
     {
         Move();
-        //Jump(); //dummy can't jump
-        //Grab(); //dummy don't grab
     }
 
     private void Move()
@@ -57,10 +55,10 @@ public class DummyPlayer : MonoBehaviour
         }
 
         bool isSprinting = false;
-        if (Input.GetButton("Sprint") || Mathf.Abs(Input.GetAxis("Sprint")) > .2)
+        /*if (Input.GetButton("Sprint") || Mathf.Abs(Input.GetAxis("Sprint")) > .2)
         {
             isSprinting = true;
-        }
+        }*/
         float maxSpeed;
 
 
@@ -112,86 +110,5 @@ public class DummyPlayer : MonoBehaviour
 
         //Update the animator
         animator.SetFloat("xVelocity", rigidbody.velocity.x);
-    }
-
-    private void Jump()
-    {
-        //if the jump button is pressed, the cooldown has ended, and the player is on the ground...
-        //jump
-        if (Input.GetButton("Jump") && jumpCooldown <= 0 && (feetCollider.IsTouchingLayers(LayerMask.GetMask("Ground")) || feetCollider.IsTouchingLayers(LayerMask.GetMask("Player"))))
-        {
-            rigidbody.velocity = new Vector2(rigidbody.velocity.x, jumpHeight);
-            jumpCooldown = maxJumpCooldown;
-        }
-
-        jumpCooldown -= 1;
-
-        if (jumpCooldown <= 0)
-        {
-            jumpCooldown = 0;
-        }
-    }
-
-    private void Grab()
-    {
-        if (Input.GetButtonDown("Grab") && !isGrabbing)
-        {
-            //Detect the objects close to the left and right of player
-            RaycastHit2D[] nearestObject = new RaycastHit2D[1];
-            if (lastDirection == Direction.left)
-            {
-                bodyCollider.Cast(Vector2.left, nearestObject, .3f);
-            }
-            else //(lastDirecion == Direction.right)
-            {
-                bodyCollider.Cast(Vector2.right, nearestObject, .3f);
-            }
-
-            //If there was an object close to the player in the direction they're facing
-            if (nearestObject[0])
-            {
-                //grab the nearest object
-                grabbedObject = nearestObject[0].collider.gameObject;
-
-                //position the grabbed object above the player
-                grabbedObject.GetComponent<Rigidbody2D>().position = new Vector2(rigidbody.position.x, rigidbody.position.y + 1f);
-                //reduce its mass to 0 so it can be carried easily
-                grabbedObject.GetComponent<Rigidbody2D>().mass = 0;
-                //attach a joint component to the object
-                FixedJoint2D joint = grabbedObject.AddComponent<FixedJoint2D>();
-                joint.anchor.Set(grabbedObject.GetComponent<Rigidbody2D>().position.x, grabbedObject.GetComponent<Rigidbody2D>().position.y);
-                //connect the player to the joint so the object follows the player
-                joint.connectedBody = rigidbody;
-                isGrabbing = true;
-            }
-        }
-        else if (Input.GetButtonDown("Grab") && isGrabbing)
-        {
-            isGrabbing = false;
-
-            //release the object by:
-            //resetting the mass to 1
-            grabbedObject.GetComponent<Rigidbody2D>().mass = 1;
-            //destroying the joint
-            Destroy(grabbedObject.GetComponent<FixedJoint2D>());
-            //adding velocity in the direction the player is facing so the object goes that direction
-            if (lastDirection == Direction.left)
-            {
-                grabbedObject.GetComponent<Rigidbody2D>().velocity = new Vector2(-6f, 1f);
-            }
-            else
-            {
-                grabbedObject.GetComponent<Rigidbody2D>().velocity = new Vector2(6f, 1f);
-            }
-            //If the player is facing the same way they are throwing: the player's momentum will cause the object's initial velocity to be higher
-            if (lastDirection == Direction.left && rigidbody.velocity.x < -0.1)
-            {
-                grabbedObject.GetComponent<Rigidbody2D>().velocity += new Vector2(rigidbody.velocity.x * 1f, 1f);
-            }
-            else if (lastDirection == Direction.right && rigidbody.velocity.x > 0.1)
-            {
-                grabbedObject.GetComponent<Rigidbody2D>().velocity += new Vector2(rigidbody.velocity.x * 1f, 1f);
-            }
-        }
     }
 }
