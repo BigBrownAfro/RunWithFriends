@@ -158,10 +158,13 @@ MonoBehaviour:
   playerCount: 1
   playerGameObject: {fileID: 7254277993509974256, guid: 209055ce319ab574e90ea838d7c0408b,
     type: 3}
+  godGameObject: {fileID: 7424668635285749057, guid: 761e1eb446336ec42bf7678a430a084e,
+    type: 3}
   deathWallGameObject: {fileID: 5076794803212427679, guid: 835ad9aae7c3c9f45977f5531948d0dd,
     type: 3}
   enableDeathWall: 0
   players: []
+  god: {fileID: 0}
 --- !u!4 &215891038
 Transform:
   m_ObjectHideFlags: 0
@@ -343,7 +346,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 519420028}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 1.0698317, y: -1.6548221, z: 14.577884}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1779103617}
@@ -407,7 +410,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 909393196}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -1.0698317, y: 1.6548221, z: -14.577884}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 519420032}
@@ -602,7 +605,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1779103616}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:

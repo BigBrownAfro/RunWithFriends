@@ -24,7 +24,6 @@ public class FollowCam : MonoBehaviour
     {
         while (!player)
         {
-            Debug.Log("Didn't find player");
             player = GameObject.FindGameObjectWithTag("Player").GetComponent<Player>();
             yield return null;
         }

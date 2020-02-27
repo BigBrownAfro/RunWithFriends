@@ -7,6 +7,7 @@ public class GameController : MonoBehaviour
 {
     [SerializeField] [Range(1,4)] int playerCount;
     [SerializeField] GameObject playerGameObject;
+    [SerializeField] GameObject godGameObject;
     [SerializeField] GameObject deathWallGameObject;
     [SerializeField] bool enableDeathWall = true;
     KillTile killTilemap;
@@ -15,17 +16,24 @@ public class GameController : MonoBehaviour
     DeathWall deathWall;
 
     public Player[] players;
+    public God god;
 
     // Start is called before the first frame update
     void Start()
     {
-        Init();
+        //Make cursor invisible so that when "god" is created we know it's working
+        Cursor.visible = false;
+        InitMap();
         VerifyComponents();
         CreatePlayers();
+        CreateGod();
         Activate();
     }
 
-    private void Init()
+    /**
+     * Creates or Find the components for the map
+     */
+    private void InitMap()
     {
         killTilemap = GameObject.FindGameObjectWithTag("KillTilemap").GetComponent<KillTile>();
         foregroundBody = GameObject.FindGameObjectWithTag("ForegroundTilemap").GetComponent<Rigidbody2D>();
@@ -39,6 +47,9 @@ public class GameController : MonoBehaviour
 
     }
 
+    /**
+     * Verifies that the map components were either created or located correctly
+     */
     private void VerifyComponents()
     {
         if(!playerGameObject || !killTilemap || !foregroundBody || !deathWallGameObject)
@@ -48,6 +59,9 @@ public class GameController : MonoBehaviour
         }
     }
 
+    /**
+     * Create the platforming players based on the playercount variable
+     */
     private void CreatePlayers()
     {
         players = new Player[playerCount];
@@ -59,6 +73,17 @@ public class GameController : MonoBehaviour
         }
     }
 
+    /**
+     * Creates the "God" player that will be manipulating the playing field
+     */
+    private void CreateGod()
+    {
+        god = Instantiate(godGameObject).GetComponent<God>();
+    }
+
+    /**
+     * Activates components that need activation
+     */
     private void Activate()
     {
         if (enableDeathWall)
