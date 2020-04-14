@@ -259,8 +259,14 @@ PrefabInstance:
     - target: {fileID: 8961969986566956657, guid: aa1b402020c0ff948bca0f09d8c14eef,
         type: 3}
       propertyPath: playerCount
-      value: 4
+      value: 3
       objectReference: {fileID: 0}
+    - target: {fileID: 8961969986566956657, guid: aa1b402020c0ff948bca0f09d8c14eef,
+        type: 3}
+      propertyPath: trophyGameObject
+      value: 
+      objectReference: {fileID: 4651856829864583197, guid: d1b19df4cc14ab847956ed33d6f7d3b6,
+        type: 3}
     - target: {fileID: 8961969986566956660, guid: aa1b402020c0ff948bca0f09d8c14eef,
         type: 3}
       propertyPath: m_LocalPosition.x

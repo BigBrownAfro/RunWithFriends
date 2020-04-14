@@ -83,6 +83,7 @@ public class Player : MonoBehaviour
         Jump();
         CheckForLanding();
         Grab();
+        MoveTrophy();
         IncrementCooldowns();
         CheckDeath();
         UpdateAnimator();
@@ -423,5 +424,19 @@ public class Player : MonoBehaviour
         }
 
         return "False";
+    }
+
+    private void MoveTrophy()
+    {
+        if(Input.GetButton("B_" + playerId))
+        {
+            GameObject trophy = GameObject.FindGameObjectWithTag("Trophy");
+            Rigidbody2D trophyBody = trophy.GetComponent<Rigidbody2D>();
+
+            Vector2 newVelocity = rigidbody.position - trophyBody.position;
+            newVelocity = newVelocity.normalized * 2;
+
+            trophyBody.velocity = newVelocity;
+        }
     }
 }

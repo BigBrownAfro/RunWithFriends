@@ -9,7 +9,9 @@ public class GameController : MonoBehaviour
     [SerializeField] GameObject playerGameObject;
     [SerializeField] GameObject godGameObject;
     [SerializeField] GameObject deathWallGameObject;
+    [SerializeField] GameObject trophyGameObject;
     [SerializeField] bool enableDeathWall = true;
+
     KillTile killTilemap;
     GameObject[] fallingSpikes;
     Rigidbody2D foregroundBody;
@@ -20,6 +22,7 @@ public class GameController : MonoBehaviour
 
     public Player[] players;
     public God god;
+    public GameObject trophy;
 
     // Start is called before the first frame update
     void Start()
@@ -44,6 +47,8 @@ public class GameController : MonoBehaviour
         endZone = GameObject.FindGameObjectWithTag("EndZone");
         deathWall = Instantiate(deathWallGameObject).GetComponent<DeathWall>();
         deathWall.transform.position = new Vector3(spawnZone.transform.position.x - 10, spawnZone.transform.position.y, 0);
+        trophy = Instantiate(trophyGameObject);
+        trophy.transform.position = new Vector3(spawnZone.transform.position.x + 3, spawnZone.transform.position.y + 5, 0);
         fallingSpikes = GameObject.FindGameObjectsWithTag("FallingSpike");
         progressBar = GameObject.FindGameObjectWithTag("ProgressBar").GetComponent<ProgressBar>();
     }
@@ -65,6 +70,11 @@ public class GameController : MonoBehaviour
             {
                 respawnPlayer(i + 1);
             }
+        }
+
+        if(trophy.transform.position.x > endZone.transform.position.x)
+        {
+            trophy.transform.localScale += new Vector3(.01f, .01f, .01f);
         }
     }
 
