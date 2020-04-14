@@ -101,8 +101,8 @@ TextureImporter:
     physicsShape:
     - - {x: 2, y: 3}
       - {x: -2, y: 3}
-      - {x: -4, y: -4}
-      - {x: 4, y: -4}
+      - {x: -3, y: -4}
+      - {x: 3, y: -4}
     bones: []
     spriteID: 5e97eb03825dee720800000000000000
     internalID: 0

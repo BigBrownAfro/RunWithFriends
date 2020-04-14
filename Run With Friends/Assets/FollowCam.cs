@@ -24,7 +24,15 @@ public class FollowCam : MonoBehaviour
     {
         while (!player)
         {
-            player = GameObject.FindGameObjectWithTag("Player").GetComponent<Player>();
+            try
+            {
+                player = GameObject.FindGameObjectWithTag("Player").GetComponent<Player>();
+            }
+            catch (System.Exception)
+            {
+
+                Debug.Log("Player not spawned yet. Follow cam failed to follow.");
+            }
             yield return null;
         }
         cam.Follow = player.transform;

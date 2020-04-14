@@ -25,11 +25,19 @@ public class Player : MonoBehaviour
     int jumpCooldown = 0;
     [SerializeField] float throwSpeed = 1f;
     [SerializeField] float throwHeight = 3f;
-    [SerializeField] float frictionStrength = 1f;
+    [SerializeField] float frictionStrength = 5f;
+
+    bool isLanded = true;
 
     //Grabbing
     bool isGrabbing = false;
     GameObject grabbedObject;
+    int grabButtonCooldown = 0;
+
+    //Sounds
+    public AudioSource audioSource;
+    public AudioClip jumpSound;
+    public AudioClip landSound;
 
     //Directions
     enum Direction {left, right};
@@ -39,8 +47,6 @@ public class Player : MonoBehaviour
     public Rigidbody2D rigidbody;
     public BoxCollider2D feetCollider;
     public CapsuleCollider2D bodyCollider;
-    //public CapsuleCollider2D leftHandCollider;
-    //public CapsuleCollider2D rightHandCollider;
     Animator animator;
 
     // Start is called before the first frame update
@@ -60,14 +66,9 @@ public class Player : MonoBehaviour
 
         rigidbody = GetComponent<Rigidbody2D>();
         feetCollider = GetComponent<BoxCollider2D>();
-
-        //Assign body and hands
-        CapsuleCollider2D[] capsules = GetComponents<CapsuleCollider2D>();
-        bodyCollider = capsules[0];
-        //leftHandCollider = capsules[1];
-        //rightHandCollider = capsules[2];
         bodyCollider = GetComponent<CapsuleCollider2D>();
         animator = GetComponent<Animator>();
+        audioSource = GetComponent<AudioSource>();
         
     }
 
@@ -80,6 +81,7 @@ public class Player : MonoBehaviour
         }
         Move();
         Jump();
+        CheckForLanding();
         Grab();
         IncrementCooldowns();
         CheckDeath();
@@ -190,18 +192,21 @@ public class Player : MonoBehaviour
             rigidbody.velocity = new Vector2(rigidbody.velocity.x, jumpHeight);
             //Set the jump cooldown to max so the player can't jump immediately after (double jump while on groung)
             jumpCooldown = maxJumpCooldown;
+            audioSource.PlayOneShot(jumpSound);
         }
         else if (Input.GetButton("A_" + playerId) && jumpCooldown <= 0 && CanWallJump().Equals("Left")) //Trying to jump while touching left wall
         {
             //propel the player upwards and away from the wall
             rigidbody.velocity = new Vector2(5f, jumpHeight);
             jumpCooldown = maxJumpCooldown;
+            audioSource.PlayOneShot(jumpSound);
         }
         else if(Input.GetButton("A_" + playerId) && jumpCooldown <= 0 && CanWallJump().Equals("Right")) //Trying to jump while touching right wall
         {
             //propel the player upwards and away from the wall
             rigidbody.velocity = new Vector2(-5f, jumpHeight);
             jumpCooldown = maxJumpCooldown;
+            audioSource.PlayOneShot(jumpSound);
         }
 
         //dercement cooldown
@@ -216,8 +221,10 @@ public class Player : MonoBehaviour
 
     private void Grab()
     {
-        if(Input.GetButtonDown("X_" + playerId) && !isGrabbing)
+        if(Input.GetButton("X_" + playerId) && !isGrabbing && grabButtonCooldown <= 0)
         {
+            Debug.Log("Pushed throw");
+
             //Detect the objects close to the left and right of player
             RaycastHit2D[] nearestObject = new RaycastHit2D[1];
             if(lastDirection == Direction.left)
@@ -241,7 +248,7 @@ public class Player : MonoBehaviour
                 }
             }
 
-            if (nearestObject[0] && (!nearestObject[0].rigidbody.bodyType.Equals(RigidbodyType2D.Static) || nearestObject[0].rigidbody.bodyType.Equals(RigidbodyType2D.Kinematic))) //If there was a grabbable object close to the player in the direction they're facing
+            if (nearestObject[0] && !(nearestObject[0].rigidbody.bodyType.Equals(RigidbodyType2D.Static)) && !(nearestObject[0].rigidbody.bodyType.Equals(RigidbodyType2D.Kinematic))) //If there was a grabbable object close to the player in the direction they're facing
             {
                 //grab the nearest object
                 grabbedObject = nearestObject[0].collider.gameObject;
@@ -255,11 +262,15 @@ public class Player : MonoBehaviour
                 //connect the player to the joint so the object follows the player
                 joint.connectedBody = rigidbody;
                 isGrabbing = true;
+
+                //set grab cooldown before being able to throw
+                grabButtonCooldown = 20;
             }
         }
-        else if (Input.GetButtonDown("X_" + playerId) && isGrabbing) //Throw
+        else if (Input.GetButton("X_" + playerId) && isGrabbing && grabButtonCooldown <= 0) //Throw
         {
             isGrabbing = false;
+            grabButtonCooldown = 20;
 
             //release the object by:
             //resetting the mass to 1
@@ -287,6 +298,22 @@ public class Player : MonoBehaviour
         }
     }
 
+    private void CheckForLanding()
+    {
+        if (feetCollider.IsTouchingLayers(LayerMask.GetMask("Ground")))
+        {
+            if (!isLanded)
+            {
+                //audioSource.PlayOneShot(landSound);
+                isLanded = true;
+            }
+        }
+        else
+        {
+            isLanded = false;
+        }
+    }
+
     public void Hurt(int amount)
     {
         if (invincibilityCooldown <= 0)
@@ -303,11 +330,17 @@ public class Player : MonoBehaviour
         {
             invincibilityCooldown = 0;
         }
+
+        grabButtonCooldown -= 1;
+        if(grabButtonCooldown < 0)
+        {
+            grabButtonCooldown = 0;
+        }
     }
 
     private void CheckDeath()
     {
-        if (health <= 0)
+        if (health <= 0 || rigidbody.transform.position.y < -50)
         {
             Kill();
             //StartCoroutine(Kill());
@@ -322,9 +355,29 @@ public class Player : MonoBehaviour
 
     public void Kill()
     {
+        //Release anything they're holding
+        if (isGrabbing)
+        {
+            isGrabbing = false;
+
+            //release the object by:
+            //resetting the mass to 1
+            grabbedObject.GetComponent<Rigidbody2D>().mass = 1;
+            //destroying the joint
+            Destroy(grabbedObject.GetComponent<FixedJoint2D>());
+        }
+
+        //Insta revive right now
+        health = 1;
+        //respawn the player
+        GameObject.FindGameObjectWithTag("GameController").GetComponent<GameController>().respawnPlayer(playerId);
+
+        //kill the player (stop update loop), stop their animations
+        /*
         isAlive = false;
         StartCoroutine(PlayDeathAnimationAndDeactivate());
         Debug.Log("Player " + playerId + " is real dead.");
+        */
     }
 
     private IEnumerator PlayDeathAnimationAndDeactivate()
@@ -358,13 +411,13 @@ public class Player : MonoBehaviour
         bodyCollider.Cast(Vector2.right, castRight, .1f);
 
         //If their is an object to the left and it is the ground (wall)
-        if (castLeft[0] && castLeft[0].collider.attachedRigidbody.bodyType.Equals(RigidbodyType2D.Static))
+        if (castLeft[0] && (castLeft[0].collider.attachedRigidbody.bodyType.Equals(RigidbodyType2D.Static) || castLeft[0].collider.attachedRigidbody.bodyType.Equals(RigidbodyType2D.Kinematic)))
         {
             return "Left";
         }
 
         //If their is an object to the right and it is the ground (wall)
-        if (castRight[0] && castRight[0].collider.attachedRigidbody.bodyType.Equals(RigidbodyType2D.Static))
+        if (castRight[0] && (castRight[0].collider.attachedRigidbody.bodyType.Equals(RigidbodyType2D.Static) || castRight[0].collider.attachedRigidbody.bodyType.Equals(RigidbodyType2D.Kinematic)))
         {
             return "Right";
         }

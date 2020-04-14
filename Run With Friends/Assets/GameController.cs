@@ -11,9 +11,12 @@ public class GameController : MonoBehaviour
     [SerializeField] GameObject deathWallGameObject;
     [SerializeField] bool enableDeathWall = true;
     KillTile killTilemap;
+    GameObject[] fallingSpikes;
     Rigidbody2D foregroundBody;
     GameObject spawnZone;
+    GameObject endZone;
     DeathWall deathWall;
+    ProgressBar progressBar;
 
     public Player[] players;
     public God god;
@@ -38,13 +41,53 @@ public class GameController : MonoBehaviour
         killTilemap = GameObject.FindGameObjectWithTag("KillTilemap").GetComponent<KillTile>();
         foregroundBody = GameObject.FindGameObjectWithTag("ForegroundTilemap").GetComponent<Rigidbody2D>();
         spawnZone = GameObject.FindGameObjectWithTag("SpawnZone");
+        endZone = GameObject.FindGameObjectWithTag("EndZone");
         deathWall = Instantiate(deathWallGameObject).GetComponent<DeathWall>();
+        deathWall.transform.position = new Vector3(spawnZone.transform.position.x - 10, spawnZone.transform.position.y, 0);
+        fallingSpikes = GameObject.FindGameObjectsWithTag("FallingSpike");
+        progressBar = GameObject.FindGameObjectWithTag("ProgressBar").GetComponent<ProgressBar>();
     }
 
     // Update is called once per frame
     void Update()
     {
+        CheckWin();
+        UpdateProgressBar();
+    }
 
+    private void CheckWin()
+    {
+        //for each player
+        for(int i = 0; i < players.Length; i++)
+        {
+            //Check to see if the player has crossed the finish line
+            if (players[i].rigidbody.position.x > endZone.transform.position.x)
+            {
+                respawnPlayer(i + 1);
+            }
+        }
+    }
+
+    private void UpdateProgressBar()
+    {
+        float spawnX = spawnZone.transform.position.x; //The x position of the start of the map
+        float totalMapLength = endZone.transform.position.x - spawnX; //length of the map
+
+        //Find which player has traveled the furthest
+        float furthestDistance = -10000;
+        for (int i = 0; i < players.Length; i++)
+        {
+            float playerDistance = players[i].rigidbody.position.x - spawnX; //player distance from the spawn zone
+
+            //Check to see if the player's distance is further than the current furthest
+            if (playerDistance > furthestDistance)
+            {
+                furthestDistance = playerDistance;
+            }
+        }
+
+        //Update the progress bar given the percentage of the map complete
+        progressBar.UpdateProgress(furthestDistance / totalMapLength);
     }
 
     /**
@@ -86,10 +129,25 @@ public class GameController : MonoBehaviour
      */
     private void Activate()
     {
+        //Enable the deathwall if the option is enabled
         if (enableDeathWall)
         {
             deathWall.Activate();
         }
+
+        //Enable the harmful tilemap
         killTilemap.Activate();
+
+        //Enable the falling spikes
+        for(int i = 0; i < fallingSpikes.Length; i++)
+        {
+            fallingSpikes[i].GetComponent<KillTile>().Activate();
+        }
+    }
+
+    public void respawnPlayer(int playerId)
+    {
+        //Set the position of the player to the spawn zone
+        players[playerId - 1].rigidbody.position = new Vector2(spawnZone.transform.position.x, spawnZone.transform.position.y + 2);
     }
 }

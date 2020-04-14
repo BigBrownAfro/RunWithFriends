@@ -1,0 +1,3331 @@
+fileFormatVersion: 2
+guid: ab0d531137bf5054d86e5aad0196d04a
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -333597634533342434
+    second: forest_of_whispers_morning_mist_tiles_0
+  - first:
+      213: 6113052588863055878
+    second: forest_of_whispers_morning_mist_tiles_1
+  - first:
+      213: 5468651693359666947
+    second: forest_of_whispers_morning_mist_tiles_2
+  - first:
+      213: -3135157501674994727
+    second: forest_of_whispers_morning_mist_tiles_3
+  - first:
+      213: -4911921516713878516
+    second: forest_of_whispers_morning_mist_tiles_4
+  - first:
+      213: -4146169675338455033
+    second: forest_of_whispers_morning_mist_tiles_5
+  - first:
+      213: -2647148693038604944
+    second: forest_of_whispers_morning_mist_tiles_6
+  - first:
+      213: -8690907669860965930
+    second: forest_of_whispers_morning_mist_tiles_7
+  - first:
+      213: 785410029562016912
+    second: forest_of_whispers_morning_mist_tiles_8
+  - first:
+      213: -336983664321353255
+    second: forest_of_whispers_morning_mist_tiles_9
+  - first:
+      213: 6268946477209026976
+    second: forest_of_whispers_morning_mist_tiles_10
+  - first:
+      213: 9139074053656797650
+    second: forest_of_whispers_morning_mist_tiles_11
+  - first:
+      213: 448937273135586404
+    second: forest_of_whispers_morning_mist_tiles_12
+  - first:
+      213: -6270517326320227026
+    second: forest_of_whispers_morning_mist_tiles_13
+  - first:
+      213: 7616805944049657984
+    second: forest_of_whispers_morning_mist_tiles_14
+  - first:
+      213: -9145512329875932078
+    second: forest_of_whispers_morning_mist_tiles_15
+  - first:
+      213: 3383096245713573535
+    second: forest_of_whispers_morning_mist_tiles_16
+  - first:
+      213: 3153647680124874431
+    second: forest_of_whispers_morning_mist_tiles_17
+  - first:
+      213: -4883884691899318006
+    second: forest_of_whispers_morning_mist_tiles_18
+  - first:
+      213: 6673910833142654382
+    second: forest_of_whispers_morning_mist_tiles_19
+  - first:
+      213: 4567072227704740751
+    second: forest_of_whispers_morning_mist_tiles_20
+  - first:
+      213: -4197236452632152225
+    second: forest_of_whispers_morning_mist_tiles_21
+  - first:
+      213: 1155703592242694051
+    second: forest_of_whispers_morning_mist_tiles_22
+  - first:
+      213: -7411630845530811812
+    second: forest_of_whispers_morning_mist_tiles_23
+  - first:
+      213: 5011090670558814680
+    second: forest_of_whispers_morning_mist_tiles_24
+  - first:
+      213: 9016859204715637792
+    second: forest_of_whispers_morning_mist_tiles_25
+  - first:
+      213: -7397629884637054342
+    second: forest_of_whispers_morning_mist_tiles_26
+  - first:
+      213: 4062336211169041561
+    second: forest_of_whispers_morning_mist_tiles_27
+  - first:
+      213: -1970155741353903539
+    second: forest_of_whispers_morning_mist_tiles_28
+  - first:
+      213: -4763618803931013159
+    second: forest_of_whispers_morning_mist_tiles_29
+  - first:
+      213: 4539599235705576690
+    second: forest_of_whispers_morning_mist_tiles_30
+  - first:
+      213: 7307312773284352014
+    second: forest_of_whispers_morning_mist_tiles_31
+  - first:
+      213: -7773553243100594275
+    second: forest_of_whispers_morning_mist_tiles_32
+  - first:
+      213: -8607453472192671834
+    second: forest_of_whispers_morning_mist_tiles_33
+  - first:
+      213: 3527928197885077611
+    second: forest_of_whispers_morning_mist_tiles_34
+  - first:
+      213: -6252143077056453402
+    second: forest_of_whispers_morning_mist_tiles_35
+  - first:
+      213: 7054227223016594491
+    second: forest_of_whispers_morning_mist_tiles_36
+  - first:
+      213: -674842830348651466
+    second: forest_of_whispers_morning_mist_tiles_37
+  - first:
+      213: -4454901835843651538
+    second: forest_of_whispers_morning_mist_tiles_38
+  - first:
+      213: -727300734758209776
+    second: forest_of_whispers_morning_mist_tiles_39
+  - first:
+      213: -4698243889763690269
+    second: forest_of_whispers_morning_mist_tiles_40
+  - first:
+      213: -3537928890822884107
+    second: forest_of_whispers_morning_mist_tiles_41
+  - first:
+      213: 5228777334286614225
+    second: forest_of_whispers_morning_mist_tiles_42
+  - first:
+      213: 7874448543235204038
+    second: forest_of_whispers_morning_mist_tiles_43
+  - first:
+      213: 3166116769049333212
+    second: forest_of_whispers_morning_mist_tiles_44
+  - first:
+      213: -1389409076515939082
+    second: forest_of_whispers_morning_mist_tiles_45
+  - first:
+      213: -3967654272329970520
+    second: forest_of_whispers_morning_mist_tiles_46
+  - first:
+      213: 8257728881785610079
+    second: forest_of_whispers_morning_mist_tiles_47
+  - first:
+      213: 6780540141842358567
+    second: forest_of_whispers_morning_mist_tiles_48
+  - first:
+      213: 4194746862250868229
+    second: forest_of_whispers_morning_mist_tiles_49
+  - first:
+      213: -7433329742561897853
+    second: forest_of_whispers_morning_mist_tiles_50
+  - first:
+      213: 91227581041101998
+    second: forest_of_whispers_morning_mist_tiles_51
+  - first:
+      213: -1582668047078792619
+    second: forest_of_whispers_morning_mist_tiles_52
+  - first:
+      213: -2488608270779906647
+    second: forest_of_whispers_morning_mist_tiles_53
+  - first:
+      213: 7652660191541642920
+    second: forest_of_whispers_morning_mist_tiles_54
+  - first:
+      213: 3209070999482372724
+    second: forest_of_whispers_morning_mist_tiles_55
+  - first:
+      213: -445600608295848182
+    second: forest_of_whispers_morning_mist_tiles_56
+  - first:
+      213: -8966473218387182366
+    second: forest_of_whispers_morning_mist_tiles_57
+  - first:
+      213: -4155879416332847493
+    second: forest_of_whispers_morning_mist_tiles_58
+  - first:
+      213: 3028579401785014227
+    second: forest_of_whispers_morning_mist_tiles_59
+  - first:
+      213: -4796353427671455441
+    second: forest_of_whispers_morning_mist_tiles_60
+  - first:
+      213: 4735322381377951411
+    second: forest_of_whispers_morning_mist_tiles_61
+  - first:
+      213: 6319122911366980504
+    second: forest_of_whispers_morning_mist_tiles_62
+  - first:
+      213: -697765731233504533
+    second: forest_of_whispers_morning_mist_tiles_63
+  - first:
+      213: 434809598506694648
+    second: forest_of_whispers_morning_mist_tiles_64
+  - first:
+      213: 6058941036860546350
+    second: forest_of_whispers_morning_mist_tiles_65
+  - first:
+      213: -1181686991259231298
+    second: forest_of_whispers_morning_mist_tiles_66
+  - first:
+      213: -1838480452539431578
+    second: forest_of_whispers_morning_mist_tiles_67
+  - first:
+      213: 8879191444387866337
+    second: forest_of_whispers_morning_mist_tiles_68
+  - first:
+      213: -4409088461440465843
+    second: forest_of_whispers_morning_mist_tiles_69
+  - first:
+      213: -399285711451623538
+    second: forest_of_whispers_morning_mist_tiles_70
+  - first:
+      213: 343615800656110670
+    second: forest_of_whispers_morning_mist_tiles_71
+  - first:
+      213: 3263471520907018857
+    second: forest_of_whispers_morning_mist_tiles_72
+  - first:
+      213: 2777911829406327119
+    second: forest_of_whispers_morning_mist_tiles_73
+  - first:
+      213: -6170807460564009363
+    second: forest_of_whispers_morning_mist_tiles_74
+  - first:
+      213: 3933725649028068108
+    second: forest_of_whispers_morning_mist_tiles_75
+  - first:
+      213: 5857418402807599856
+    second: forest_of_whispers_morning_mist_tiles_76
+  - first:
+      213: -7992091549608593911
+    second: forest_of_whispers_morning_mist_tiles_77
+  - first:
+      213: 9108987781252701539
+    second: forest_of_whispers_morning_mist_tiles_78
+  - first:
+      213: 5537903997841523002
+    second: forest_of_whispers_morning_mist_tiles_79
+  - first:
+      213: -6131823941252225988
+    second: forest_of_whispers_morning_mist_tiles_80
+  - first:
+      213: -4930109890242051022
+    second: forest_of_whispers_morning_mist_tiles_81
+  - first:
+      213: 8934002429774511361
+    second: forest_of_whispers_morning_mist_tiles_82
+  - first:
+      213: -7438064464010944054
+    second: forest_of_whispers_morning_mist_tiles_83
+  - first:
+      213: -3492148262297908053
+    second: forest_of_whispers_morning_mist_tiles_84
+  - first:
+      213: -6959841318091510108
+    second: forest_of_whispers_morning_mist_tiles_85
+  - first:
+      213: 5084536362724913426
+    second: forest_of_whispers_morning_mist_tiles_86
+  - first:
+      213: 8543388609889489964
+    second: forest_of_whispers_morning_mist_tiles_87
+  - first:
+      213: 4956787625198877388
+    second: forest_of_whispers_morning_mist_tiles_88
+  - first:
+      213: -6102518838155958585
+    second: forest_of_whispers_morning_mist_tiles_89
+  - first:
+      213: -1965789807763948457
+    second: forest_of_whispers_morning_mist_tiles_90
+  - first:
+      213: 4899374114136923035
+    second: forest_of_whispers_morning_mist_tiles_91
+  - first:
+      213: 83294579255867688
+    second: forest_of_whispers_morning_mist_tiles_92
+  - first:
+      213: -5180959518700167121
+    second: forest_of_whispers_morning_mist_tiles_93
+  - first:
+      213: -2756857038984595218
+    second: forest_of_whispers_morning_mist_tiles_94
+  - first:
+      213: -5936727064694408648
+    second: forest_of_whispers_morning_mist_tiles_95
+  - first:
+      213: 3769102416487461270
+    second: forest_of_whispers_morning_mist_tiles_96
+  - first:
+      213: 6164852995922465049
+    second: forest_of_whispers_morning_mist_tiles_97
+  - first:
+      213: 6525729764202693928
+    second: forest_of_whispers_morning_mist_tiles_98
+  - first:
+      213: -7877636961052722652
+    second: forest_of_whispers_morning_mist_tiles_99
+  - first:
+      213: 991320904166562009
+    second: forest_of_whispers_morning_mist_tiles_100
+  - first:
+      213: 5152936403990350290
+    second: forest_of_whispers_morning_mist_tiles_101
+  - first:
+      213: 4487257530387477320
+    second: forest_of_whispers_morning_mist_tiles_102
+  - first:
+      213: -362848383756166912
+    second: forest_of_whispers_morning_mist_tiles_103
+  - first:
+      213: -2674864198736128087
+    second: forest_of_whispers_morning_mist_tiles_104
+  - first:
+      213: -9110677633194328973
+    second: forest_of_whispers_morning_mist_tiles_105
+  - first:
+      213: 4886263794472236014
+    second: forest_of_whispers_morning_mist_tiles_106
+  - first:
+      213: -8146574366766781878
+    second: forest_of_whispers_morning_mist_tiles_107
+  - first:
+      213: -8603228972323454597
+    second: forest_of_whispers_morning_mist_tiles_108
+  - first:
+      213: -2058686061025067723
+    second: forest_of_whispers_morning_mist_tiles_109
+  - first:
+      213: -3759510501050768926
+    second: forest_of_whispers_morning_mist_tiles_110
+  - first:
+      213: -1858760721267684969
+    second: forest_of_whispers_morning_mist_tiles_111
+  - first:
+      213: -8511345219120400807
+    second: forest_of_whispers_morning_mist_tiles_112
+  - first:
+      213: 6773135500743925959
+    second: forest_of_whispers_morning_mist_tiles_113
+  - first:
+      213: 7185487623221015424
+    second: forest_of_whispers_morning_mist_tiles_114
+  - first:
+      213: 1996001472541395129
+    second: forest_of_whispers_morning_mist_tiles_115
+  - first:
+      213: -6507748143584543745
+    second: forest_of_whispers_morning_mist_tiles_116
+  - first:
+      213: -500787530658080714
+    second: forest_of_whispers_morning_mist_tiles_117
+  - first:
+      213: -1075276030957289239
+    second: forest_of_whispers_morning_mist_tiles_118
+  - first:
+      213: -1397706555566564354
+    second: forest_of_whispers_morning_mist_tiles_119
+  - first:
+      213: 5971539944092910269
+    second: forest_of_whispers_morning_mist_tiles_120
+  - first:
+      213: 2720965906298044549
+    second: forest_of_whispers_morning_mist_tiles_121
+  - first:
+      213: 7212618083554709111
+    second: forest_of_whispers_morning_mist_tiles_122
+  - first:
+      213: -5304817744393012843
+    second: forest_of_whispers_morning_mist_tiles_123
+  - first:
+      213: 4432015443935563129
+    second: forest_of_whispers_morning_mist_tiles_124
+  - first:
+      213: -5202805025371801805
+    second: forest_of_whispers_morning_mist_tiles_125
+  - first:
+      213: 8478338405970971292
+    second: forest_of_whispers_morning_mist_tiles_126
+  - first:
+      213: -7907382414254560441
+    second: forest_of_whispers_morning_mist_tiles_127
+  - first:
+      213: -4185352401813653454
+    second: forest_of_whispers_morning_mist_tiles_128
+  - first:
+      213: 3943125963314912841
+    second: forest_of_whispers_morning_mist_tiles_129
+  - first:
+      213: 6585028802642281601
+    second: forest_of_whispers_morning_mist_tiles_130
+  - first:
+      213: -4255822860744714436
+    second: forest_of_whispers_morning_mist_tiles_131
+  - first:
+      213: 77276128120293456
+    second: forest_of_whispers_morning_mist_tiles_132
+  - first:
+      213: 3881688063786149961
+    second: forest_of_whispers_morning_mist_tiles_133
+  externalObjects: {}
+  serializedVersion: 10
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 8
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: forest_of_whispers_morning_mist_tiles_0
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 325
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 590bdd0d7f4837049a32da0305d88ec0
+      internalID: -333597634533342434
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forest_of_whispers_morning_mist_tiles_1
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 325
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4996a0737c06f494b88e74f1e0a17bab
+      internalID: 6113052588863055878
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forest_of_whispers_morning_mist_tiles_2
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 325
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff3f7aa57a8da7c4ea8262a8df048843
+      internalID: 5468651693359666947
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forest_of_whispers_morning_mist_tiles_3
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 325
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59670a76c6a3b5b488aca37656fd0b90
+      internalID: -3135157501674994727
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forest_of_whispers_morning_mist_tiles_4
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 316
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f0475beecd443764dba33d36e63e3230
+      internalID: -4911921516713878516
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forest_of_whispers_morning_mist_tiles_5
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 316
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b19f90cd2826bdc479e6122ae05ea320
+      internalID: -4146169675338455033
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forest_of_whispers_morning_mist_tiles_6
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 316
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 374aa9d7e4b70364390acc2c7e8a175a
+      internalID: -2647148693038604944
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forest_of_whispers_morning_mist_tiles_7
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 316
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb7c0010480ea0741816927d709f1227
+      internalID: -8690907669860965930
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forest_of_whispers_morning_mist_tiles_8
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 307
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f28c77fe7c077ac47bd3814fb06143df
+      internalID: 785410029562016912
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forest_of_whispers_morning_mist_tiles_9
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 307
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f61c812357a08c342b3e015b84402b31
+      internalID: -336983664321353255
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forest_of_whispers_morning_mist_tiles_10
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 307
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2136cce0aa69ce246a95d84c3ffb3e60
+      internalID: 6268946477209026976
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forest_of_whispers_morning_mist_tiles_11
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 307
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 953f6594179ad4942ad7ec1f92920812
+      internalID: 9139074053656797650
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forest_of_whispers_morning_mist_tiles_12
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 298
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec27602d5a1da65438400d7ef060faa6
+      internalID: 448937273135586404
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forest_of_whispers_morning_mist_tiles_13
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 298
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da05269c86a49c84ca7702ead9282f5e
+      internalID: -6270517326320227026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forest_of_whispers_morning_mist_tiles_14
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 298
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33ab13e667a998c4dbb542376aeef174
+      internalID: 7616805944049657984
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forest_of_whispers_morning_mist_tiles_15
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 298
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b4752a8e1fdb6e45a0085f99413a58a
+      internalID: -9145512329875932078
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forest_of_whispers_morning_mist_tiles_16
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 289
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 140cbf89e19c3fc4e9ae4401dd1ef2c4
+      internalID: 3383096245713573535
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forest_of_whispers_morning_mist_tiles_17
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 289
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1422452daf8bf774a95fe53d3cc039af
+      internalID: 3153647680124874431
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forest_of_whispers_morning_mist_tiles_18
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 289
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 996b9674137fa2647977a130234559ee
+      internalID: -4883884691899318006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forest_of_whispers_morning_mist_tiles_19
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 289
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4fbea1853dc8eab47a9e96e1afc9aee1
+      internalID: 6673910833142654382
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forest_of_whispers_morning_mist_tiles_20
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 280
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a3ec4b433bae2648af029458a6abcea
+      internalID: 4567072227704740751
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forest_of_whispers_morning_mist_tiles_21
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 280
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 229baf53b939ac24e85997fe630609da
+      internalID: -4197236452632152225
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forest_of_whispers_morning_mist_tiles_22
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 280
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc326eb4895649f42a657482e76126de
+      internalID: 1155703592242694051
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forest_of_whispers_morning_mist_tiles_23
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 280
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c81692786c48014193e88875222ee66
+      internalID: -7411630845530811812
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forest_of_whispers_morning_mist_tiles_24
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 271
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec06358b602275c48acdf24fb7b9aba9
+      internalID: 5011090670558814680
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forest_of_whispers_morning_mist_tiles_25
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 271
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8a155bd82e1d89439d8a07d040d23eb
+      internalID: 9016859204715637792
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forest_of_whispers_morning_mist_tiles_26
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 271
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1406b254380cc04bb7ee864d0cfed28
+      internalID: -7397629884637054342
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forest_of_whispers_morning_mist_tiles_27
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 271
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a665fd5897fab334fa6856e86ccfea2e
+      internalID: 4062336211169041561
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forest_of_whispers_morning_mist_tiles_28
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 262
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57800c9e793704e478ab90531c41b0b8
+      internalID: -1970155741353903539
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forest_of_whispers_morning_mist_tiles_29
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 262
+        width: 4
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb141014866a43f42ab84d716ec12fa3
+      internalID: -4763618803931013159
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forest_of_whispers_morning_mist_tiles_30
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 262
+        width: 5
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94cef201f73515145b9e3d279a87fb12
+      internalID: 4539599235705576690
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forest_of_whispers_morning_mist_tiles_31
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 262
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e64d256bb9379ff4da3ee72a8f1b9566
+      internalID: 7307312773284352014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forest_of_whispers_morning_mist_tiles_32
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 253
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc81d84f7d08a3d4195a3d145b19a71a
+      internalID: -7773553243100594275
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forest_of_whispers_morning_mist_tiles_33
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 253
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb39fda145d195543951827cae1f589b
+      internalID: -8607453472192671834
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forest_of_whispers_morning_mist_tiles_34
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 253
+        width: 4
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 974d56c32f32bb94eb2f38ae5122075b
+      internalID: 3527928197885077611
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forest_of_whispers_morning_mist_tiles_35
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 244
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a953f75c2047f2f48acc9e8102c08d4a
+      internalID: -6252143077056453402
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forest_of_whispers_morning_mist_tiles_36
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 244
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d04f9362ef69174890c3cee87e1dbcf
+      internalID: 7054227223016594491
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forest_of_whispers_morning_mist_tiles_37
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 244
+        width: 10
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a67ad185ed812843a023694b7fcf729
+      internalID: -674842830348651466
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forest_of_whispers_morning_mist_tiles_38
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 235
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a77cb92f59009df4aabfd8d9f700eda8
+      internalID: -4454901835843651538
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forest_of_whispers_morning_mist_tiles_39
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 235
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79571a234633504458beab566eec5ad9
+      internalID: -727300734758209776
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forest_of_whispers_morning_mist_tiles_40
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 235
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 369367f6410dd184bb4653a7e4641153
+      internalID: -4698243889763690269
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forest_of_whispers_morning_mist_tiles_41
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 226
+        width: 8
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42b844300385110458f2e773bc13d8d0
+      internalID: -3537928890822884107
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forest_of_whispers_morning_mist_tiles_42
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 235
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a210188cc657c6c42b7361477723cce2
+      internalID: 5228777334286614225
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forest_of_whispers_morning_mist_tiles_43
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 217
+        width: 8
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2124aaa3647acc54387a479f3a5b8098
+      internalID: 7874448543235204038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forest_of_whispers_morning_mist_tiles_44
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 226
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c8f28c8129771240ad4a62ad7be4a5b
+      internalID: 3166116769049333212
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forest_of_whispers_morning_mist_tiles_45
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 226
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03b19606d3f147f4f90bf9a3b48149f7
+      internalID: -1389409076515939082
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forest_of_whispers_morning_mist_tiles_46
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 226
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 152e84e726dce444a8a792675be1763a
+      internalID: -3967654272329970520
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forest_of_whispers_morning_mist_tiles_47
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 217
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5d977c9dd614264a978523667894133
+      internalID: 8257728881785610079
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forest_of_whispers_morning_mist_tiles_48
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 202
+        width: 22
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e01eda5f92961504a96a123a3ee5640f
+      internalID: 6780540141842358567
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forest_of_whispers_morning_mist_tiles_49
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 220
+        width: 7
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6587c03c1a32db042b3ff8811d0e32b9
+      internalID: 4194746862250868229
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forest_of_whispers_morning_mist_tiles_50
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 199
+        width: 8
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7b2810d975887a448254f390f6ae899
+      internalID: -7433329742561897853
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forest_of_whispers_morning_mist_tiles_51
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 199
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e122115ff1880ac40a2197320942f079
+      internalID: 91227581041101998
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forest_of_whispers_morning_mist_tiles_52
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 192
+        width: 6
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b591a5cb2afde64d9cb9f2bec22f711
+      internalID: -1582668047078792619
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forest_of_whispers_morning_mist_tiles_53
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 194
+        width: 6
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46342ab11f1762f44b471ba46ab960b3
+      internalID: -2488608270779906647
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forest_of_whispers_morning_mist_tiles_54
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 190
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47c9e4d6752c21a488bc89d7883ea414
+      internalID: 7652660191541642920
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forest_of_whispers_morning_mist_tiles_55
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 190
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e9187d3b087b6047b0a0c8aa3a84bb3
+      internalID: 3209070999482372724
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forest_of_whispers_morning_mist_tiles_56
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 181
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 435c11d7a9cd7894b9daae629cfb8cec
+      internalID: -445600608295848182
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forest_of_whispers_morning_mist_tiles_57
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 181
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b02010cf7891bcd428087d45fd2feb13
+      internalID: -8966473218387182366
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forest_of_whispers_morning_mist_tiles_58
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 181
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 586fbe7cfd9607c4da8ba003de4fb96a
+      internalID: -4155879416332847493
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forest_of_whispers_morning_mist_tiles_59
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 181
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1d5736a2feaf80469e1792075fb7f4f
+      internalID: 3028579401785014227
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forest_of_whispers_morning_mist_tiles_60
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 172
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16def3e3f0bd7bc459cc1b639855600c
+      internalID: -4796353427671455441
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forest_of_whispers_morning_mist_tiles_61
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 172
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d84c04416ab303a49bf29cf83964d261
+      internalID: 4735322381377951411
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forest_of_whispers_morning_mist_tiles_62
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 172
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31ad5fac542209b428cb323b9159ceee
+      internalID: 6319122911366980504
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forest_of_whispers_morning_mist_tiles_63
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 172
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: afd6592f31b65d8428677cf57f667bfa
+      internalID: -697765731233504533
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forest_of_whispers_morning_mist_tiles_64
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 163
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 532c94ba0a6e9254889bfc433b1caf55
+      internalID: 434809598506694648
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forest_of_whispers_morning_mist_tiles_65
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 163
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dfc6557e44fe90a40b5d4e0ede155057
+      internalID: 6058941036860546350
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forest_of_whispers_morning_mist_tiles_66
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 163
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 302af5d155ea90545b5052c630fc1a50
+      internalID: -1181686991259231298
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forest_of_whispers_morning_mist_tiles_67
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 163
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: acdf15ed9e374db4f8f38a047ee73d43
+      internalID: -1838480452539431578
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forest_of_whispers_morning_mist_tiles_68
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 154
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7cf89493938c7649aa9d45eee982e19
+      internalID: 8879191444387866337
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forest_of_whispers_morning_mist_tiles_69
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 154
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd5a1595f0541f349a36fba1960c65d7
+      internalID: -4409088461440465843
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forest_of_whispers_morning_mist_tiles_70
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 154
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc40337249c9d6d49aaa90fb26b2ad76
+      internalID: -399285711451623538
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forest_of_whispers_morning_mist_tiles_71
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 154
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dffd9973034ca4c48befee7dec6db71c
+      internalID: 343615800656110670
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forest_of_whispers_morning_mist_tiles_72
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 145
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0507c144ceea6374b89044e75e854ef4
+      internalID: 3263471520907018857
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forest_of_whispers_morning_mist_tiles_73
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 145
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29f1485d10af7a649a8499ccfc49a89a
+      internalID: 2777911829406327119
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forest_of_whispers_morning_mist_tiles_74
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 145
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90b37816949b15643856e722c361e8c3
+      internalID: -6170807460564009363
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forest_of_whispers_morning_mist_tiles_75
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 145
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6cb0c6199411754fa73eef0603dc094
+      internalID: 3933725649028068108
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forest_of_whispers_morning_mist_tiles_76
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 136
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96a41aa98ea3062458af4f4979a1d1c4
+      internalID: 5857418402807599856
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forest_of_whispers_morning_mist_tiles_77
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 136
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30fe17d14e945604580b8891243c4013
+      internalID: -7992091549608593911
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forest_of_whispers_morning_mist_tiles_78
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 136
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aaec3ee643316964191966b5ebdf37d4
+      internalID: 9108987781252701539
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forest_of_whispers_morning_mist_tiles_79
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 136
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3158e7594d37bb74ebc66258f41e35e2
+      internalID: 5537903997841523002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forest_of_whispers_morning_mist_tiles_80
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 127
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ad6c8f0656dfa446b50c242f67128e3
+      internalID: -6131823941252225988
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forest_of_whispers_morning_mist_tiles_81
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 127
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c185f6344a71fd343a5b57b308d05330
+      internalID: -4930109890242051022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forest_of_whispers_morning_mist_tiles_82
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 127
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd71540f45410ee4383901ff6cd66c27
+      internalID: 8934002429774511361
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forest_of_whispers_morning_mist_tiles_83
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 127
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2cfb8cd901f8ec469d564a1426e9bd3
+      internalID: -7438064464010944054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forest_of_whispers_morning_mist_tiles_84
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 118
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31eb8521e216d004c9a3bd2e4bf4fe5f
+      internalID: -3492148262297908053
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forest_of_whispers_morning_mist_tiles_85
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 118
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fdba749d6aecbec48bff6b90c025d9e1
+      internalID: -6959841318091510108
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forest_of_whispers_morning_mist_tiles_86
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 118
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: abd6ffcacb70fb94f946a58b4d7ea7df
+      internalID: 5084536362724913426
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forest_of_whispers_morning_mist_tiles_87
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 118
+        width: 8
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 145f56d0772902a42aae7dfedd5b4481
+      internalID: 8543388609889489964
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forest_of_whispers_morning_mist_tiles_88
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 109
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3bca25822444534d9c2bf6b4f459b74
+      internalID: 4956787625198877388
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forest_of_whispers_morning_mist_tiles_89
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 109
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c00b5c7f6100bf342b166dac8aaeaa92
+      internalID: -6102518838155958585
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forest_of_whispers_morning_mist_tiles_90
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 109
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc83134f2bcc2ce4d908c8f5ddff2581
+      internalID: -1965789807763948457
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forest_of_whispers_morning_mist_tiles_91
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 109
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b009252c3ffa9a240b79d715da3b3d58
+      internalID: 4899374114136923035
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forest_of_whispers_morning_mist_tiles_92
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 100
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e7eba2d0054e4146bb8cf8f3bb574bb
+      internalID: 83294579255867688
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forest_of_whispers_morning_mist_tiles_93
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 100
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d20f11de9ff6584e85aa2b202a708b6
+      internalID: -5180959518700167121
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forest_of_whispers_morning_mist_tiles_94
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 100
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bba9cc329bc1edc4ca6c34f410fb3311
+      internalID: -2756857038984595218
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forest_of_whispers_morning_mist_tiles_95
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 100
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1bfb202fd7991464eaab66f8b7152411
+      internalID: -5936727064694408648
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forest_of_whispers_morning_mist_tiles_96
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 91
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dda861baa0589994abc5b33e86dbaaa8
+      internalID: 3769102416487461270
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forest_of_whispers_morning_mist_tiles_97
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 91
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae42b2c54ea7cb244bff23dcb57b3d6a
+      internalID: 6164852995922465049
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forest_of_whispers_morning_mist_tiles_98
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 91
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa4dd1fec095f384bbff71bb9abc485a
+      internalID: 6525729764202693928
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forest_of_whispers_morning_mist_tiles_99
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 91
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4470aacae2112fa4699d37a3c045b789
+      internalID: -7877636961052722652
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forest_of_whispers_morning_mist_tiles_100
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 82
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73c62b3c997194d42bc51cc122736387
+      internalID: 991320904166562009
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forest_of_whispers_morning_mist_tiles_101
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 82
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac708864bbe8001458fbd5c42ddf15d6
+      internalID: 5152936403990350290
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forest_of_whispers_morning_mist_tiles_102
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 73
+        width: 7
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 886e73574bec3a14c9ed2f27dde4ad75
+      internalID: 4487257530387477320
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forest_of_whispers_morning_mist_tiles_103
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 82
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94ba2c222766f2942a53c15fafb3c798
+      internalID: -362848383756166912
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forest_of_whispers_morning_mist_tiles_104
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 73
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9016716bec4b04841af9261d8b33fb94
+      internalID: -2674864198736128087
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forest_of_whispers_morning_mist_tiles_105
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 73
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c231d9aee63712f44b6489098bb1062c
+      internalID: -9110677633194328973
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forest_of_whispers_morning_mist_tiles_106
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 75
+        width: 5
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32fc7b836f7732247b5c2a7fcc081985
+      internalID: 4886263794472236014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forest_of_whispers_morning_mist_tiles_107
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 67
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3374acaf3d86c7548bd8a27838b6a896
+      internalID: -8146574366766781878
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forest_of_whispers_morning_mist_tiles_108
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 64
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff88aa573fa345e469601ec50caba8af
+      internalID: -8603228972323454597
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forest_of_whispers_morning_mist_tiles_109
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 64
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: edc9cd869e9fa5b499efa3a2117b5e48
+      internalID: -2058686061025067723
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forest_of_whispers_morning_mist_tiles_110
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 64
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02b815a07dde69c44bfebf3df1a66b47
+      internalID: -3759510501050768926
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forest_of_whispers_morning_mist_tiles_111
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 55
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cea9b03cad901ec4bb102cf633d7577a
+      internalID: -1858760721267684969
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forest_of_whispers_morning_mist_tiles_112
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 55
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94ccdc1fd0b68654c9d99bcd7354c89d
+      internalID: -8511345219120400807
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forest_of_whispers_morning_mist_tiles_113
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 56
+        width: 12
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13110f3445f68ca4897d4640d48ab22f
+      internalID: 6773135500743925959
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forest_of_whispers_morning_mist_tiles_114
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 47
+        width: 13
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d117d32c699184c49bfb21d616c954a9
+      internalID: 7185487623221015424
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forest_of_whispers_morning_mist_tiles_115
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 47
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0207ff8f5c2dea24b80696c8f0c1f791
+      internalID: 1996001472541395129
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forest_of_whispers_morning_mist_tiles_116
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 46
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5d52dddea069dd40b2b6b57c6689dcc
+      internalID: -6507748143584543745
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forest_of_whispers_morning_mist_tiles_117
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 37
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6e1a3ae97e896043a8335e4c4331364
+      internalID: -500787530658080714
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forest_of_whispers_morning_mist_tiles_118
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 37
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6127ae009229bf43b68d80a6c24d73b
+      internalID: -1075276030957289239
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forest_of_whispers_morning_mist_tiles_119
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 37
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 464abe1fa38c3734ea2470a335d4f314
+      internalID: -1397706555566564354
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forest_of_whispers_morning_mist_tiles_120
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 37
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7fb4566cc6db528419076ad21e3f1178
+      internalID: 5971539944092910269
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forest_of_whispers_morning_mist_tiles_121
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 28
+        width: 12
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6797d98664fabb4694e0c25c1908a33
+      internalID: 2720965906298044549
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forest_of_whispers_morning_mist_tiles_122
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 28
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9330d7977c649546a93420889cbaf75
+      internalID: 7212618083554709111
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forest_of_whispers_morning_mist_tiles_123
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 28
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 769d56636fba373478ed95347d2ffba2
+      internalID: -5304817744393012843
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forest_of_whispers_morning_mist_tiles_124
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 19
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc365e4ad23e94240bf035b78439f7d8
+      internalID: 4432015443935563129
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forest_of_whispers_morning_mist_tiles_125
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 19
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6bdeb77e8c2ba69499b541802e016bf0
+      internalID: -5202805025371801805
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forest_of_whispers_morning_mist_tiles_126
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 19
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5a08f6cbc1c70c4485e5ec66968854a
+      internalID: 8478338405970971292
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forest_of_whispers_morning_mist_tiles_127
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 20
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab6f1ca2baf07b549b3dccc713c53831
+      internalID: -7907382414254560441
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forest_of_whispers_morning_mist_tiles_128
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 11
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66c1ae989cb0d3d428e76bf9496da204
+      internalID: -4185352401813653454
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forest_of_whispers_morning_mist_tiles_129
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 10
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2753c09e6f7a1149a3bad5006d84fb2
+      internalID: 3943125963314912841
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forest_of_whispers_morning_mist_tiles_130
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 10
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1fd2463b2d500eb42897015aab518ad9
+      internalID: 6585028802642281601
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forest_of_whispers_morning_mist_tiles_131
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 11
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da718b8055256374eaf306e6696bd1ed
+      internalID: -4255822860744714436
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forest_of_whispers_morning_mist_tiles_132
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 824de212b35aaae4cb169510bd86a10a
+      internalID: 77276128120293456
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forest_of_whispers_morning_mist_tiles_133
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 1
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11864a70d2729ca4188a7eab479338bc
+      internalID: 3881688063786149961
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
