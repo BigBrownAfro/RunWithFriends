@@ -210,10 +210,10 @@ public class Player : MonoBehaviour
             audioSource.PlayOneShot(jumpSound);
         }
 
-        //dercement cooldown
+        //decrement cooldown
         jumpCooldown -= 1;
 
-        //Make sure the cooldown doesn't overflow negatively
+        //Make sure the cooldown doesn't overflow
         if (jumpCooldown <= 0)
         {
             jumpCooldown = 0;
@@ -222,6 +222,7 @@ public class Player : MonoBehaviour
 
     private void Grab()
     {
+        //Player pushed the 'x' button
         if(Input.GetButton("X_" + playerId) && !isGrabbing && grabButtonCooldown <= 0)
         {
             Debug.Log("Pushed throw");
@@ -232,7 +233,9 @@ public class Player : MonoBehaviour
             {
                 //Look for an object to the left
                 bodyCollider.Cast(Vector2.left, nearestObject, .3f);
-                if (!nearestObject[0] || nearestObject[0].rigidbody.bodyType.Equals(RigidbodyType2D.Static) || nearestObject[0].rigidbody.bodyType.Equals(RigidbodyType2D.Kinematic)) //if their is no grabbable object to left, try right
+
+                //if their is no grabbable object to left, try right
+                if (!nearestObject[0] || nearestObject[0].rigidbody.bodyType.Equals(RigidbodyType2D.Static) || nearestObject[0].rigidbody.bodyType.Equals(RigidbodyType2D.Kinematic)) 
                 {
                     nearestObject = new RaycastHit2D[1];
                     bodyCollider.Cast(Vector2.right, nearestObject, .3f);
@@ -242,14 +245,17 @@ public class Player : MonoBehaviour
             {
                 //look for an object to the right
                 bodyCollider.Cast(Vector2.right, nearestObject, .3f);
-                if (!nearestObject[0]) //if their is no object to right, try left
+
+                //if their is no object to right, try left
+                if (!nearestObject[0]) 
                 {
                     nearestObject = new RaycastHit2D[1];
                     bodyCollider.Cast(Vector2.left, nearestObject, .3f);
                 }
             }
 
-            if (nearestObject[0] && !(nearestObject[0].rigidbody.bodyType.Equals(RigidbodyType2D.Static)) && !(nearestObject[0].rigidbody.bodyType.Equals(RigidbodyType2D.Kinematic))) //If there was a grabbable object close to the player in the direction they're facing
+            //If there was a grabbable object close to the player in the direction they're facing
+            if (nearestObject[0] && !(nearestObject[0].rigidbody.bodyType.Equals(RigidbodyType2D.Static)) && !(nearestObject[0].rigidbody.bodyType.Equals(RigidbodyType2D.Kinematic))) 
             {
                 //grab the nearest object
                 grabbedObject = nearestObject[0].collider.gameObject;
